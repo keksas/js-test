@@ -1,0 +1,23 @@
+{
+  "name": "36-grupe-js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "math": "nodemon ./math.js",
+    "math-call": "nodemon ./math-call.js",
+    "text": "nodemon ./text.js",
+    "callback": "nodemon ./callback.js",
+    "spread": "nodemon ./spread.js",
+    "hof": "nodemon ./hof.js",
+    "more": "nodemon ./more.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rimantas",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
